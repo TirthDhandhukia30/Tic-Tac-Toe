@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+}
+
+body{
+  
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+button, .box {
+  cursor: pointer;
+}
+
+.header h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-style:normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-size: 8vmin;
+  color: black;
+}
+.box:hover{
+  background-color: #e1dfdf;
+}
+
+.game{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+  
+}
+.reset{
+  width: 18vmin;
+  height: 5vmin;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-style:normal;
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+}
+
+.winner{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-style:normal;
+}
